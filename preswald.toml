@@ -1,0 +1,20 @@
+[project]
+title = "Vida Data app"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"
+entrypoint = "script.py"
+
+[branding]
+name = "Vida's Iris Explorer"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.iris]
+type = "csv"
+path = "data/iris.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
